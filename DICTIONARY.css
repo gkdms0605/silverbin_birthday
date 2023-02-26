@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.main_header{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(74, 78, 78);
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+}
+
+.main_header img{
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 30px;
+  height: 30px;
+
+}
+
+.logo{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tilte{
+  margin-left: 15px;
+  flex-shrink: 0;
+}
+
+.header_navbar>ul{
+  margin-top: 19px;
+  display: inline-flex;
+  float: right;
+  margin-left: 28rem;
+  margin-right: 10px;
+}
+.header_navbar>ul>li{
+  /* all: unset; */
+  font-size: 24px;
+}
+.header_navbar>ul>li:nth-child(1),li:nth-child(2),li:nth-child(3){
+  margin-right: 5rem;
+}
+
+a{
+  all: unset;
+}
+a:hover{
+  cursor: pointer;
+}
+
+article{
+  padding-top: 200px;
+  margin-left: 230px;
+}
+.first{
+  display: flex;
+}
+.first_img_container{
+  background-image: url(./dladmaqla.jpg);
+  width: 350px;
+  height: 450px;
+  margin-top: -20px;
+  background-size: cover;
+  /* position: relative; */
+}
+.name_container{
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 400px;
+}
+
+.underline{
+  height: 2px;
+}
+
+#name_underline{
+  background-color: black;
+  margin-left: 20px;
+  width: 310px;
+  position: absolute;
+}
+
+.profile_container{
+  padding-left: 170px;
+}
+
+.profile{
+  font-size: 30px;
+  color: #1AFF91;
+}
+
+#profile_underline{
+  background-color: #1AFF91;
+  margin-top: 5px;
+  width: 500px;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.information{
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.second{
+  padding-top: 200px;
+}
+
+.second_title > h1{
+  font-size: 30px;
+  color: #1AFF91;
+}
+
+#family_underline{
+  margin-top: 10px;
+  background-color: #1AFF91;
+  width: 700px;
+  margin-bottom: 10px;
+} 
+
+.profiles{
+  padding-top: 50px;
+}
+
+.mini_profile{
+  display: flex;
+  padding-bottom: 50px;
+  margin-top: -10px;
+}
+
+.profile_img_box{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: paleturquoise;
+  margin-right: 80px;
+  margin-top: -10px;
+}
+
+.textfild{
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.third{
+  padding-top: 100px;
+  margin-left: -170px;
+}
+
+.HUSBANDS{
+  font-size: 30px;
+  color: #1AFF91; 
+  padding-bottom: 10px;
+}
+
+#third_profile_underline{
+  background-color: #1AFF91;
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.imgs_cont{
+  margin-bottom: 100px;
+  margin-left: 300px;  
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.imgs_cont ul{
+  display: inline-flex;
+}
+
+.imgs_cont ul li{
+  all: unset;
+}
+
+.third_img_container{
+  background-color: gray;
+  width: 400px;
+  height: 500px;
+}
+
+#img1{
+  background-image: url(./IMG/husbands/hus1.jpg);
+  background-size: cover;
+}
+
+#img2{
+  background-image: url(./IMG/husbands/hus2.jpg);
+  background-size: cover;
+}
+
+#img3{
+  background-image: url(./IMG/husbands/hus3.jpg);
+  background-size: cover;
+}
+
+#img4{
+  background-image: url(./IMG/husbands/KakaoTalk_20230223_002614432.jpg);
+  background-size: cover;
+}
+
+.third_name_container > h1{
+  font-size: 30px;
+  text-align: end;
+  padding-top: 135px;
+  padding-right: 10px;
+  color: white
+}
+
+.third_name_container > .underline{
+  margin-left: 100px;
+  width: 80%;
+  background-color: white
+}
+
+.navs{
+  display: flex;
+  width: 400px;
+}
+
+
+.nav_arrow1{
+  margin-top: 250px;
+  padding-left: 10px;
+}
+
+.nav_arrow{
+  margin-top: 250px;
+  margin-left: 285px;
+}
+
+#haeun{
+  background-image: url(./IMG/KakaoTalk_20230226_042202316.jpg);
+  background-size: cover;
+}
+
+#jiho{
+  background-image: url(./IMG/KakaoTalk_20230226_042202316_01.jpg);
+  background-size: cover;
+}
+
+#lise{
+  background-image: url(./IMG/KakaoTalk_20230226_042202316_02.jpg);
+  background-size: cover;
+}

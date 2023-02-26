@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.main_header{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.227);
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  position: fixed;
+}
+
+.main_header img{
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 30px;
+  height: 30px;
+
+}
+
+.logo{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tilte{
+  margin-left: 15px;
+  flex-shrink: 0;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  margin-top: 19px;
+  margin-left: 28rem;
+  justify-content: flex-end ;
+  margin-right: -10px;
+}
+ul>li{
+  font-size: 24px;
+  
+}
+ul>li:nth-child(1),li:nth-child(2),li:nth-child(3){
+  margin-right: 5rem;
+}
+
+a{
+  all: unset;
+}
+a:hover{
+  cursor: pointer;
+}
+
+.letter{
+  padding: 100px;
+  margin-left: 70px;  
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+#haeun_letter{
+  padding-top: 120px;
+  width: 500px;
+}
+
+.letter_main{
+  margin-left: 100px;
+}
+
+.letter>.img_container>img{
+  width: 500px;
+  height: 500px;
+}
+
+.letter_main>h1{
+  font-size: 70px;
+  width: 700px;
+  /* border: 1px solid gray */
+}
+
+.letter_main>p{
+  font-size: 25px;
+}
+
+.people{
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 400px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#AYEONG{
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 250px;
+  padding: 0px;
+}
+
+#jiho_letter{
+  margin-top: 100px;
+}
+
+#jiho_letter >h1{
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+#jiho_letter > p{
+  font-size: 23px;
+}
+
+#ayeong_letter{
+  padding-top: 100px;
+}
+
+
+.line1{
+  width: 300px;
+  height: 1.5px;
+  background-color: aquamarine;
+  
+}
+
+.nav_arrow_down{
+  display: flex;
+  width: 105px;
+  margin: auto;
+  margin-top: -120px;
+}
+
+.nav_arrow_up{
+  display: flex;
+  width: 105px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: -140px;
+  padding:0px
+}
+
+#jiho_img{
+  width: 500px;
+  height: 500px;
+  padding-top: 30px;
+}
+
+.a{
+  margin-bottom: -200px
+}
