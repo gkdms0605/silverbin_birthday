@@ -7,6 +7,10 @@
 
 *::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera*/
+} 
+
+article{
+  scroll-behavior : smooth;
 }
 
 .main_header{
